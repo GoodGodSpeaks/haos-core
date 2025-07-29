@@ -1,0 +1,7 @@
+{
+  "concept_id": "demo001",
+  "design_parameters": {
+    "plasma_radius": 1.0,
+    "coil_current": 5000000.0
+  }
+}
