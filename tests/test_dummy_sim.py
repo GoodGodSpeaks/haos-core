@@ -1,4 +1,9 @@
+import sys
 from pathlib import Path
+
+# Add the project root to sys.path
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 import agents.planner.main as planner
 import agents.dummy_sim.main as dummy
 import agents.aggregator.main as aggregator

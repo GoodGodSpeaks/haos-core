@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "concept_id": { "type": "string" },
+    "design_parameters": {
+      "type": "object",
+      "properties": {
+        "plasma_radius": { "type": "number", "minimum": 0 },
+        "coil_current": { "type": "number" }
+      },
+      "required": ["plasma_radius", "coil_current"]
+    }
+  },
+  "required": ["concept_id", "design_parameters"]
+}
